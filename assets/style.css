@@ -5,7 +5,7 @@ body{
 }
 .left-border {
     border-left: 3px solid #2e4c79;
-    max-height: fit-content;
+    /* max-height: fit-content; */
 } 
 .leftpadding {
     padding-left: 5px;
@@ -113,4 +113,46 @@ img {
 .img-1 {
     width: 70%;
     margin: 0px 0px 5px 0px;
+}
+/* css for contact me sec  */
+#contact-me {
+    align-items: center;
+    display: flex;
+    /* justify-content: sp;
+    align-items: stretch; */
+}
+#contact-me h2 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #2e4c79;
+    /* margin: 0px; */
+    text-align: end;
+}
+.bottom-nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.bottom-nav ul {
+    /* display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+    /* why did we give this min-width, the link got space between 
+    list-style-type: none; */
+    display: flex;
+    justify-content: spa;
+    /* min-width: 300px; */
+    list-style-type: none;
+}
+
+.bottom-nav a {
+    color:#2e4c79;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.bottom-nav a:hover {
+    color: #92ccce;
+    cursor: pointer;
 }
