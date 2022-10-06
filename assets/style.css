@@ -1,158 +1,158 @@
-body{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 .left-border {
-    border-left: 3px solid #2e4c79;
-    /* max-height: fit-content; */
-} 
+  border-left: 3px solid #2e4c79;
+  /* max-height: fit-content; */
+}
 .leftpadding {
-    padding-left: 5px;
+  padding-left: 5px;
 }
 .rightmargin {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #31343d;
-    height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #31343d;
+  height: 75px;
 }
 h1 {
-    background-color: #92ccce;
-    color: #31343d;
-    padding-left: 10px;
-    height: 40px;
+  background-color: #92ccce;
+  color: #31343d;
+  padding-left: 10px;
+  height: 40px;
 }
 #top-nav ul {
-    display: flex;
-    justify-content: space-around;
-    min-width: 300px;
-    /* why did we give this min-width, the link got space between  */
-    list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+  /* why did we give this min-width, the link got space between  */
+  list-style-type: none;
 }
 #top-nav a {
-    color: #92ccce;
-    text-decoration: underline;
-    font-weight: bold;
-    
+  color: #92ccce;
+  text-decoration: underline;
+  font-weight: bold;
 }
 #top-nav a:hover {
-    color: aliceblue;
-    cursor: pointer;
+  color: aliceblue;
+  cursor: pointer;
 }
 .bg {
-    height: 300px;
-    width: 100%;
-    background-image: url(./images/background-gbd042932e_1920.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+  height: 300px;
+  width: 100%;
+  background-image: url(./images/background-gbd042932e_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 .bg h2 {
-    background-color: azure;
-    position: absolute;
-    right: 25px;
-    bottom: 10px;
+  background-color: azure;
+  position: absolute;
+  right: 25px;
+  bottom: 10px;
 }
 #main {
-    margin: 10px 5%;
+  margin: 10px 5%;
 }
 .about-me {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* align-items: center; */ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
 }
 
 .about-me h2 {
-    font-weight: bolder;
-    font-size: 30px;
-    color: #2e4c79;
-    margin: 0px;
-    text-align: end;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #2e4c79;
+  margin: 0px;
+  text-align: end;
 }
 .about-me p {
-    color: #2e4c79;
-    font-size: 16px;
-    line-height: 1.5;
-    /* padding-left: 20px; */
+  color: #2e4c79;
+  font-size: 16px;
+  line-height: 1.5;
+  /* padding-left: 20px; */
 }
 
 /* css for div work  */
 #work {
-    display: flex;
-    /* flex-wrap: wrap; */
-    margin: 6px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: 6px;
 }
 .work h2 {
-    font-weight: bolder;
-    font-size: 30px;
-    color: #2e4c79;
-    /* margin: 0px; */
-    text-align: end;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #2e4c79;
+  /* margin: 0px; */
+  text-align: end;
 }
 .img-gallery {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 img {
-    width: 35%;
-    border: 2px solid #2e4c79;
-    /* width: 50%; */
-    /* width: 50%; */
-    /* height: 400px; */
-    /* padding: 2px; */
-    /* height: 400px; */
-    margin: 1px;
+  width: 35%;
+  border: 2px solid #2e4c79;
+  /* width: 50%; */
+  /* width: 50%; */
+  /* height: 400px; */
+  /* padding: 2px; */
+  /* height: 400px; */
+  margin: 1px;
 }
 .img-1 {
-    width: 70%;
-    margin: 0px 0px 5px 0px;
+  width: 70%;
+  margin: 0px 0px 5px 0px;
 }
-/* css for contact me sec  */
+/* contact me section  */
 #contact-me {
-    align-items: center;
-    display: flex;
-    /* justify-content: sp;
+  align-items: center;
+  display: flex;
+  /* justify-content: sp;
     align-items: stretch; */
 }
+#contact-me .heading {
+  max-width: min-content;
+}
 #contact-me h2 {
-    font-weight: bolder;
-    font-size: 30px;
-    color: #2e4c79;
-    /* margin: 0px; */
-    text-align: end;
+  font-weight: bolder;
+  font-size: 23x;
+  color: #2e4c79;
+  /* margin: 0px; */
+  text-align: end;
 }
 .bottom-nav {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
 }
 .bottom-nav ul {
-    /* display: flex;
-    justify-content: space-around;
-    min-width: 300px;
-    /* why did we give this min-width, the link got space between 
-    list-style-type: none; */
-    display: flex;
-    justify-content: spa;
-    /* min-width: 300px; */
-    list-style-type: none;
+  display: inline-flex;
+  /* justify-content: space-around; */
+  list-style-type: none;
+}
+.bottom-nav ul li {
+  padding: 0px 10px;
+  /* margin: 0px 10px; */
 }
 
 .bottom-nav a {
-    color:#2e4c79;
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 16px;
-    margin: 30px;
+  color: #2e4c79;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 16px;
+  /* margin: 30px; */
 }
 .bottom-nav a:hover {
-    color: #92ccce;
-    cursor: pointer;
+  color: #92ccce;
+  cursor: pointer;
 }
